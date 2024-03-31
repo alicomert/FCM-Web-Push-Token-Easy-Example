@@ -61,7 +61,7 @@ Contributions to this project are welcome! Please feel free to submit pull reque
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License](licence.txt).
 ```
 
 Remember to include any additional sections or details relevant to your project. This README provides a basic structure that introduces the project, explains setup and configuration steps, outlines usage, and encourages contributions.
