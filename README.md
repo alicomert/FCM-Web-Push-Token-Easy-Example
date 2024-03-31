@@ -17,8 +17,20 @@ Before you begin, ensure you have a Firebase project set up. Follow these steps 
 3. Register your web application with Firebase.
 4. Obtain your Firebase configuration object.
 
-### Configuration
+### Obtaining a VAPID Key
 
+The Voluntary Application Server Identification (VAPID) key is essential for authenticating your application's server with push services. It's used when obtaining the push notification token. Here's how to generate and find your VAPID key:
+
+1. Navigate to the Cloud Messaging tab in your Firebase project settings.
+2. Under the `Web configuration` section, you will find your `Web Push certificates`.
+3. Here, you can generate a new pair of keys if you haven't already. Once generated, your public key is your VAPID key.
+
+Include your VAPID key in the `index.html` file as follows:
+
+```html
+getToken(messaging, { serviceWorkerRegistration: registration, vapidKey: 'YOUR_VAPID_KEY' })
+### Configuration
+```
 Replace the placeholder values in the `firebaseConfig` object in `index.html` with your actual Firebase project configuration values. Also, replace `'YOUR_VAPID_KEY'` in `index.html` with your VAPID key.
 
 ```html
