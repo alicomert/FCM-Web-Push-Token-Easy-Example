@@ -1,6 +1,5 @@
 Certainly! Below is a Markdown template for your `README.md` file that you can use on GitHub. This template includes an overview, setup instructions, and usage details tailored to your FCM Web Push Token example. You can adjust it as needed to fit your project's specifics.
 
-```markdown
 # FCM Web Push Token Example
 
 This repository contains a simple example demonstrating how to integrate Firebase Cloud Messaging (FCM) for web push notifications. The example includes two main files: `index.html`, for the web application setup, and `sw.js`, for the Service Worker responsible for handling push notifications.
